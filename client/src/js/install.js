@@ -23,11 +23,7 @@ installButton.addEventListener("click", async () => {
   installButton.textContent = "Installed!";
 });
 
-// butInstall.addEventListener("click", async (event) => {
-//   event.prompt();
-//   butInstall.setAttribute("disabled", true);
-//   butInstall.textContent = "Installed!";
-// });
+
 
 // TODO: Add an handler for the `appinstalled` event
 window.addEventListener("appinstalled", (event) => {

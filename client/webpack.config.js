@@ -33,8 +33,8 @@ module.exports = () => {
       new MiniCssExtractPlugin(),
       new WorkboxPlugin.GenerateSW(),
       new WebpackPwaManifest({
-        name: 'jate',
-        short_name: 'jate',
+        name: 'Just Another Task Editor',
+        short_name: 'J.A.T.E.',
         description: 'Keep track of important tasks!',
         background_color: '#7eb4e2',
         theme_color: '#7eb4e2',
@@ -42,7 +42,7 @@ module.exports = () => {
         publicPath: './',
         icons: [
              {
-            src: path.resolve('./src/images/logo.png'),
+            src: path.resolve('src/images/logo.png'),
             sizes: [96, 128, 192, 256, 384, 512],
             destination: path.join('assets', 'icons'),
           },
