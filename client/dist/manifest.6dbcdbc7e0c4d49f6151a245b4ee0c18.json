@@ -1,0 +1,10 @@
+{
+  "name": "Just Another Task Editor",
+  "short_name": "J.A.T.E.",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./",
+  "description": "Just another task editor",
+  "background_color": "#7eb4e2",
+  "theme_color": "#7eb4e2"
+}

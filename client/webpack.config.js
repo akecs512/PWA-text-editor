@@ -35,9 +35,10 @@ module.exports = () => {
       new WebpackPwaManifest({
         name: 'Just Another Task Editor',
         short_name: 'J.A.T.E.',
-        description: 'Keep track of important tasks!',
+        description: 'Just another task editor',
         background_color: '#7eb4e2',
         theme_color: '#7eb4e2',
+        fingerprints: false,
         start_url: './',
         publicPath: './',
         icons: [
