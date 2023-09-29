@@ -1,4 +1,5 @@
 import { openDB } from "idb";
+const KEY = "jate-key";
 
 const initdb = async () =>
   openDB("jate", 1, {
@@ -11,25 +12,16 @@ const initdb = async () =>
       console.log("jate database created");
     },
   });
-  
-// TODO: Add logic to a method that accepts some content and adds it to the database
-export const putDb = async (content) => {
-  const db = await openDB('jate', 1);
-  const tx = db.transaction(['jate'], 'readwrite');
-  const store = tx.objectStore('jate');
-return request = await store.add({content})
-  console.log('Data saved to the database', result);
+
+export const putDb = async (data) => {
+  const db = await openDB("jate", 1);
+  db.put("jate", { data });
+  db.close();
 };
 
-// TODO: Add logic for a method that gets all the content from the database
 export const getDb = async () => {
-  console.log('GET all from the database');
-  const db = await openDB('jate', 1);
-  const tx = db.transaction('jate', 'readonly');
-  const store = tx.objectStore('jate');
-  const request = store.get(1);
-  const result = await request;
-  console.log('result.value', result);
-  return result;
+  const db = await openDB("jate", 1);
+  db.getAll("jate");
+  db.close();
 };
 initdb();
