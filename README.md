@@ -6,9 +6,7 @@
 - [Screenshots](#screenshots)
 - [Deployed Website](#deployed-website)
 - [System Usage](#system-usage)
-    - [Styling](#styling)
-    - [VSCode Extensions](#VSCode-extensions)
-    - [Package json Scripts](#Package-json-scripts)
+
 - [Special Thanks](#special-thanks)
 - [License](#license)
 
@@ -22,9 +20,18 @@ When they click on the Install button they can download a web application as an 
 When they load the web application they should have a registered service worker using workbox. When they register a service worker they should have their static assets pre cached upon loading along with subsequent pages and static assets.
 
 ## Screenshots
+<img width="1429" alt="JATE IndexedDB" src="https://github.com/akecs512/PWA-text-editor/assets/79340489/40e5f0c3-0f4a-4b17-acd4-b9edf252ab2d">
+<img width="1428" alt="JATE Manifest" src="https://github.com/akecs512/PWA-text-editor/assets/79340489/7b4140b7-19c9-4d9c-9f61-aceef69706f2">
+<img width="1421" alt="JATE Service Worker" src="https://github.com/akecs512/PWA-text-editor/assets/79340489/33bdbc79-f90f-4548-8302-15a2780047e4">
+
+## VideoWalkthrough
+
+https://github.com/akecs512/PWA-text-editor/assets/79340489/de507324-4942-4b4e-961c-7f9509a86dbb
+
 
 
 ## Deployed Website
+https://jate-pwa-application-53e313e5dc35.herokuapp.com/
 
 
 ## System Usage
