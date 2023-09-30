@@ -5,8 +5,6 @@
 - [Usage](#usage)
 - [Screenshots](#screenshots)
 - [Deployed Website](#deployed-website)
-- [System Usage](#system-usage)
-
 - [Special Thanks](#special-thanks)
 - [License](#license)
 
@@ -32,13 +30,6 @@ https://github.com/akecs512/PWA-text-editor/assets/79340489/de507324-4942-4b4e-9
 
 ## Deployed Website
 https://jate-pwa-application-53e313e5dc35.herokuapp.com/
-
-
-## System Usage
-
-
-
-
 
 ### Special Thanks
   Thanks to Adamk72 for his help cleaning up the code and helping me make it work.
